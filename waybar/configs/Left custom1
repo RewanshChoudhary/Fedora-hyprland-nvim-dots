@@ -1,0 +1,34 @@
+{
+"include": [
+  "$HOME/.config/waybar/Modules",
+  "$HOME/.config/waybar/ModulesWorkspaces",
+  "$HOME/.config/waybar/ModulesCustom",
+  "$HOME/.config/waybar/ModulesGroups",
+  "$HOME/.config/waybar/UserModules",
+  ],
+
+  "layer": "top",
+  "position": "left",
+  "width": 55,
+  "modules-left": [
+    "custom/menu",
+    "hyprland/workspaces",
+    "idle_inhibitor"
+  ],
+  "modules-center": [
+    "cpu#vertical",
+    "memory#vertical",
+    "temperature#vertical",
+    "clock#vertical"
+  ],
+  "modules-right": [
+    "backlight#vertical",
+    "pulseaudio#vertical",
+    "pulseaudio#microphone_vertical",
+    "network",
+    "battery",
+    "tray",
+    "custom/power_vertical"
+  ]
+
+}

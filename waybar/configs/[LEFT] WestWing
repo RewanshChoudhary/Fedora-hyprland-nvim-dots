@@ -1,0 +1,45 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+// ### LEFT PANEL - THIN VERSION ### //
+{
+"include": [
+  "$HOME/.config/waybar/Modules",
+  "$HOME/.config/waybar/ModulesWorkspaces",
+  "$HOME/.config/waybar/ModulesCustom",
+  "$HOME/.config/waybar/ModulesGroups",
+  "$HOME/.config/waybar/UserModules",
+  "$HOME/.config/waybar/ModulesVertical",
+  ],
+"layer": "left",
+"position": "left",
+"width": 20,
+"margin-top": 2,
+"margin-bottom": 2,
+"margin-left": 2,
+"margin-right": 0,
+"spacing": 2,
+"fixed-center": true,
+"ipc": true,
+//"gtk-layer-shell": true,
+  
+"modules-left": [
+    "battery#vertical",
+   
+ 
+    "power-profiles-daemon",
+],
+"modules-center": [
+ "clock#vertical",
+	"hyprland/workspaces",
+],
+"modules-right": [
+   "mpris",
+	"tray",
+	"group/notify",
+	"pulseaudio#microphone_vertical",
+	"pulseaudio#vertical",
+	"custom/power_vertical",
+	"custom/menu",
+],
+
+
+}
